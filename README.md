@@ -5,7 +5,15 @@
 Welcome to the repository for the course Cloud for AI. During the course, you will go through the process of deploying an already trained Machine Learning Model. 
 
 
-As a general note, the commands in the course are meant to be run within a terminal. To begin you need **clone this repo in your local filesystem and `cd` to the Cloud for AI directory**
+As a general note, the commands in the course are meant to be run within a terminal. 
+
+#### Optional: Instal WSL 2
+
+.... here explain and install WSL
+
+
+
+To begin you need **clone this repo in your local filesystem and `cd` to the Cloud for AI directory**
 
 To clone the repo use this command:
 ```bash
