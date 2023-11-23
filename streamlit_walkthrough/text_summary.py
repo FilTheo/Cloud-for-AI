@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 
 API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "add_your_token"}
 
 
 # Function to query Hugging Face API for text summarization
