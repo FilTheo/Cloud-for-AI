@@ -1,9 +1,12 @@
 import requests
 import streamlit as st
 
+
+# Check the huggingface model description on how to use their models for making requests
+# Link: https://huggingface.co/facebook/bart-large-cnn
+
 API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
 headers = {"Authorization": "Bearer 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"}
-
 
 # Function to query Hugging Face API for text summarization
 def query(payload):
