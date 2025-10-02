@@ -6,6 +6,7 @@ from pydantic import BaseModel
 
 app = FastAPI(title="Predicting Wine Class")
 
+
 # Represents a particular wine (or datapoint)
 class Wine(BaseModel):
     alcohol: float
@@ -23,7 +24,7 @@ class Wine(BaseModel):
     proline: float
 
 
-@app.on_event("startup")
+@app.get("startup")
 def load_clf():
     # Load classifier from pickle file
     with open("/app/wine.pkl", "rb") as file:

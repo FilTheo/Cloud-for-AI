@@ -1,0 +1,20 @@
+training:
+  target: "SalePrice"
+  features:
+    - "Overall Qual"
+    - "Overall Cond"
+    - "Gr Liv Area"
+    - "Central Air"
+    - "Total Bsmt SF"
+  test_size: 0.2
+  random_state: 42
+
+simulator:
+  interval_seconds: 30
+  batch_size: 1
+
+app:
+  title: "Ames Housing Price Monitor"
+  refresh_rate: 1.0
+
+
