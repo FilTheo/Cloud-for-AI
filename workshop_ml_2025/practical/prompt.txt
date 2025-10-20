@@ -1,0 +1,14 @@
+> this is a repo for a time series forecasting workshop I am giving. slides are in @"slides/Workshop_slides_only_1
+(3)-1.pdf". Workshop notebooks are in @practical/py_files/ ... I have generated a new dataframe in
+@practical/clear_data.ipynb named converted_2.csv. Your task is to create a new notebook called end_to_end.ipynb
+which will use everything I taught them in a single notebook. It will visualize some series as I do, show strength
+(aggregated) of seasonality etc, like in the start. Then generate forecasts using simple models and statistical
+using statsforecast. Finally we will do global models using mlforecast as i do in the proper sesion. skip neural
+networks. We will do cross-validation with 2 metrics, one will be mean absolute scaled error and the other root mean
+ squared scaled error. You will define these metrics and define cross-validation as I do on the slides. root mean
+squared scaled error (rmsse) is different thant rmse. its a scaled version. check the web if you dont know how to
+find it. do lag selection, simple feature engineering (as in the other notebook, with date features and two types of
+ normalizations) for lgbm and linear regression, then generate pltos for the predictions as on all sessions and some
+ aggregated statistics. make it end to end to mimick the last section of the slides based on the format nad
+structures I have on the sessions. think carefully here. genreate the new .ipynb. do not read .ipynb files. only .py
+ files on @practical/py_files/ that fit on your context window
